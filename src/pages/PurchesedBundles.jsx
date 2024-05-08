@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
 import assets from "../assets/asset";
 import PurchaseBundle from "../components/cards/PurchaseBundle";
 import Title from "../components/texts/Title";
@@ -15,29 +14,25 @@ export default function PurchesedBundles() {
                 {/* Bundles */}
                 <div className="bundles mt-12 flex flex-col gap-10">
 
-                    <Link to='/purchased-details-course'>
-                        <PurchaseBundle title="BCS Preparation Exam 2023"
-                            details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
-                            progress={100}
-                            img={assets.course4}
-                        ></PurchaseBundle>
-                    </Link>
 
-                    <Link to='/purchased-details-course'>
-                        <PurchaseBundle title="BCS Preparation Exam 2023"
-                            details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
-                            progress={30}
-                            img={assets.course5}
-                        ></PurchaseBundle>
-                    </Link>
+                    <PurchaseBundle title="BCS Preparation Exam 2023"
+                        details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
+                        progress={100}
+                        img={assets.course4}
+                    ></PurchaseBundle>
 
-                    <Link to='/purchased-details-course'>
-                        <PurchaseBundle title="BCS Preparation Exam 2023"
-                            details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
-                            progress={50}
-                            img={assets.course6}
-                        ></PurchaseBundle>
-                    </Link>
+                    <PurchaseBundle title="BCS Preparation Exam 2023"
+                        details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
+                        progress={30}
+                        img={assets.course5}
+                    ></PurchaseBundle>
+
+                    <PurchaseBundle title="BCS Preparation Exam 2023"
+                        details="A website is much more than a group of pages connected by links. It’s an interface, space where different things meet, communicate, and affect each other."
+                        progress={50}
+                        img={assets.course6}
+                    ></PurchaseBundle>
+
 
                 </div>
             </section>
