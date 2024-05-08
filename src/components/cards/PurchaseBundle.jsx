@@ -47,8 +47,6 @@ export default function PurchaseBundle(props) {
                     </Link>
                 </div>
 
-
-
             </div>
         </Fragment>
     )

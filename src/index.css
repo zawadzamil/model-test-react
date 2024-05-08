@@ -124,6 +124,11 @@
   gap: .5rem;
 }
 
+.login-section{
+  width: 22rem;
+  margin: auto;
+}
+
 /* For screen size 1500 to 1979 */
 @media screen and (max-width: 1979px) and (min-width: 1500px) {
   .myContainer {

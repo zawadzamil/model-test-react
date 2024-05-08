@@ -116,9 +116,9 @@ export default function Navbar() {
                         className="relative flex w-[24px] h-[24px] nav-item "
                       />
                     </Link>
-                    <a href="#" className="nav-item">
+                    <Link to="customer-login" >
                       <GreenButton  >Login</GreenButton>
-                    </a>
+                    </Link>
 
                     <a href="#" className="nav-item">
                       <WhiteButton >Register Now</WhiteButton>
